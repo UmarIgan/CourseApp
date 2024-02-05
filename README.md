@@ -17,10 +17,10 @@ Developed by OpenAI in 2021, CLIP is a Contrastive Language-Image Pretraining mo
 
 ## Dataset
 
-The dataset used in this project is sourced from a Kaggle image dataset. As the dataset originally consisted of URLs, Python scripts were employed to download and save the images using the Hugging Face library. This dataset comprises images of recipes along with their titles and ingredients, totaling approximately 82,000 rows.
+The dataset used in this project is sourced from a huggingface image dataset. This dataset comprises images of fashion products along with their titles, color, size, etc. totaling approximately 44,000 rows.
 Dataset's text were embedded using sentence-transformers/all-MiniLM-L6-v1 model while images embedded using CLIP model.
 
-Feel free to explore the provided Jupyter notebook to delve into the implementation details of multimodal search using Qdrant and CLIP embeddings.
+Feel free to explore the provided Jupyter notebook to delve into the implementation details of multimodal search using any vector database and CLIP embeddings.
 
 ## Dependencies
 
