@@ -14,5 +14,4 @@ flask-bcrypt
 pyjwt==2.0.0
 datetime
 uuid
-gunicorn
 gunicorn==20.0.4
